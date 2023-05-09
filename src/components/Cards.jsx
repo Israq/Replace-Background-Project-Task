@@ -10,14 +10,14 @@ import { SectionWrapper } from '../hoc';
 import { fadeIn } from '../utils/motion';
 import { textVariant } from '../utils/motion';
 import { c } from 'maath/dist/index-43782085.esm';
+import { Path } from 'three';
 
 const ReplaceBackground = ({ index, name, description, tags, video, source_code_link, live_project_link}) => {
   return (
     <motion.div varients={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <div className="bg-tertiary flex flex-row flex-wrap
-    justify-center gap-10 "
+      <div className="bg-tertiary p-5  rounded-2xl sm:flex-row  w-full "
       >
-        <div className='relative w-full h-[230px]'>
+        <div className='relative w-full h-[230px] '>
           <video 
             src={video}
             alt={name}
@@ -48,15 +48,11 @@ const ReplaceBackground = ({ index, name, description, tags, video, source_code_
               <p className='text-[13px] font-semibold text-black dark:text-white text-center opacity-100 mx-4 select-none'>Paste the link here</p>
             
           </div>
-         
-</div>
-       
-        
-       
-        
-      
+        </div>
 
-    </motion.div>
+       
+        
+     </motion.div>
     
 
     
@@ -70,8 +66,6 @@ const ReplaceBackground = ({ index, name, description, tags, video, source_code_
 const Cards = () => {
   return (
     <>
-      
-      
       <div className='mt-20 flex flex-wrap gap-7'>
         {cards.map((cards, index) => (
           <ReplaceBackground key={`cards-${index}`} index={index} {...cards} />

@@ -56,20 +56,22 @@ import {
 
   const services = [
     {
-      title: "Full Stack Developer",
-      icon: web,
+      
+      image: "https://static.clipdrop.co/web/replace-background/examples/car.jpg",
     },
     {
-      title: "React Developer",
-      icon: mobile,
+      image: "https://static.clipdrop.co/web/replace-background/examples/dish.jpg",
+
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+     
+      image: "https://static.clipdrop.co/web/replace-background/examples/shoes.jpg",
+
     },
     {
-      title: "Django Developer",
-      icon: creator,
+     
+      image: "https://static.clipdrop.co/web/replace-background/examples/woman.jpg",
+
     },
   ];
   

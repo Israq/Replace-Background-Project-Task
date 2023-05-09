@@ -6,13 +6,16 @@ import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = ({ index, title, icon, image }) => {
   return (
+    
     <Tilt className="xs:w-[250px] w-full">
+      
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+        className='w-full  p-[1px] rounded-[20px] shadow-card'
       >
+        
         <div
           options={{
             max: 45,
@@ -20,14 +23,12 @@ const ServiceCard = ({ index, title, icon }) => {
             speed: 4450
           }}
           className='bg-tertiary rounded-[20px]
-          py-5 px-12 min-h-[280px] flex
+          py-1  min-h-[280px] flex
           justify-evenly items-center flex-col'
         >
-          <img src={icon} alt={title}
-          className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px]
-          font-bold text-center'>{title}</h3>
-
+          <img src={image}
+          className='w-full h-full object-cover
+          rounded-2xl' />
         </div>
 
       </motion.div>
@@ -37,24 +38,16 @@ const ServiceCard = ({ index, title, icon }) => {
 const About = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}
-        >Introduction</p>
-        <h2 className={styles.sectionHeadText}
-        >Overview.</h2>
-      </motion.div>
+      
+      <div className='flex mt-3 mb-3 gap-1 items-center justify-center text-black dark:text-white '>
+        <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' stroke='currentColor' width='32' height='32'>
+              <path strokeLinecap='round' strokeLinejoin='round' d='M17 13l-5 5m0 0l-5-5m5 5V6'></path>
+        </svg>
+        <p className='text-[18px] font-bold text-black dark:text-white'>Or try with an example</p>
+      </div>
+      
 
-      <motion.p 
-        variants={fadeIn("","",0.1,1)}
-        className='mt-4 text-secondary text-[17x]
-        max-w-3xl leading-[30px]'
-      >
-        I'm a skilled software developer with experience in JavaScript and Python, 
-        and expertise in frameworks like React, Node.js, Express.js and
-        Django. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
-      </motion.p>
+     
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
