@@ -281,7 +281,7 @@ const projects = [
 ];
 const cards = [
   {
-    name: "Smart Face Recognition",
+    name: "Replace Background",
     description:
       "Teleport anything, anywhere with AI",
     tags: [
