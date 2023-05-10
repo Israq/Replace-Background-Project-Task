@@ -25,8 +25,8 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-            <p className="text-white text-[18px] font-bold cursor-pointer flex">Israq &nbsp; <span className='sm:block hidden'>| S.R.Israq</span></p>
+            {/* <img src={logo} alt='logo' className='w-9 h-9 object-contain' /> */}
+            <p className="text-white text-[18px] font-bold cursor-pointer flex">Clipdrop &nbsp; <span className='sm:block hidden'>| by stability.ai</span></p>
           
           </Link>
           <ul className='list-none hidden sm:flex flex-row gap-10'>

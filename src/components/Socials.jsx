@@ -24,13 +24,7 @@ const Socials = () => {
     }
     return (
         <div>
-            <button onClick={onButtonClick}
-            className='bg-tertiary py-3 px-8
-            outline w-fit text-white
-            font-bold shadow-md shadow-primary
-            rounded-full '>
-                    Download Resume
-            </button>
+         
 
         </div>
 

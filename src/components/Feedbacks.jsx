@@ -16,33 +16,64 @@ const Feedbacks = () => {
             <h2 className="text-5xl justify-center font-bold">
                 Frequently Asked Questions
             </h2>
-            <p className="mt-4 mb-8 text-gray-600">
-                React Interview Questions And Answers
-            </p>
+            
             <div className="space-y-4">
                 <details className="w-full rounded-lg ">
                     <summary className="px-4 py-6">
-                        What is React? 
+                    HOW TO TELEPORT SOMEONE ANYWHERE?
                     </summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-300">
-                        React is a front-end JavaScript library
-                        developed by Facebook in 2011. 
+                    Our free online background changer can teleport anybody, anywhere. Take an image of yourself and describe where you want to be. ClipDrop AI will remove the original background and create a new background that match your description.
+
+Pro-tip : You can use our mobile ClipDrop app to take a picture on your phone, and instantly change the background of your image.
                     </p>
                 </details>
                 <details className="w-full rounded-lg">
                     <summary className="px-4 py-6">
-                    What is Props and how to use it give some example?
+                    HOW CAN I CREATE PRO COMPOSITIONS WITHOUT A STUDIO?
                     </summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
-                    Props is the shorthand for Properties in React.
+                    You don't need a photo studio anymore. With ClipDrop photo background changer, you can replace photo backgrounds instantly. You don't even need a photo editing software to remove the background and place your own background instead. You can directly create all the scenes of your dreams, and change background by just describing it in plain English!
                     </p>
                 </details>
                 <details className="w-full rounded-lg ">
                     <summary className="px-4 py-6">
-                    How to install tailwind css in react js ?
+                    DO YOU HAVE AN APP TO CHANGE IMAGE BACKGROUND?
                     </summary>
                     <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
-                    What are synthetic events in React?
+                    Yes, the ClipDrop AI technology needed to change image background is available on our mobile application.
+                    </p>
+                    
+                </details>
+                <details className="w-full rounded-lg ">
+                    <summary className="px-4 py-6">
+                    HOW TO CREATE MULTIPLE VERSIONS OF A PICTURE BACKGROUND?
+                    </summary>
+                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    Our app replace image background and gives you four background image alternatives. It's a great way to create different backgrounds for the same picture. Drop here a picture with a prompt, and we will create multiples versions of what you want, download your favorite results and if you need regenerate new versions with the same description or with a new universe.
+
+Pro-tips : you can use our api to integrate this to your tools
+                    </p>
+                    
+                </details>
+                <details className="w-full rounded-lg ">
+                    <summary className="px-4 py-6">
+                    HOW CAN I REMOVE ORIGINAL IMAGE BACKGROUND WITHOUT COMPLEX EDITOR?
+
+                    </summary>
+                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    With our background changer, changing photo backgrounds has never been that easy.
+
+You can change photo background online without any image retouch knowledge. Just drop your original image, and we will detect the subject and apply the background that you want.
+                    </p>
+                    
+                </details>
+                <details className="w-full rounded-lg ">
+                    <summary className="px-4 py-6">
+                    WHAT ELSE CLIPDROP CAN DO?
+                    </summary>
+                    <p className="px-4 py-6 pt-0 ml-4 -mt-4 text-gray-600">
+                    ClipDrop AI technology, is able to remove backgrounds (background removal) or background transparent, remove unwanted objects, change background color, add backgrounds and of course change backgrounds or add background images.
                     </p>
                     
                 </details>

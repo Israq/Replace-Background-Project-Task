@@ -61,7 +61,60 @@ const Rewards = () => {
 
       </div>
     </div>
-   </section>
+    <div className="w-full mb-6 flex flex-col items-center justify-center mt-16">
+      <div className="max-w-[850px] w-full py-16">
+        <h2 className="text-3xl font-bold text-gray-800 dark:text-gray-100 uppercase text-center mb-12">Use-cases</h2>
+        <div className="flex gap-3 flex-col h-[700px] md:h-[900px]">
+          <div className="flex flex-col gap-6">
+            <div className="flex gap-3 flex-wrap flex-row justify-center">
+              <button className="transition-all select-none h-10 flex items-center justify-center rounded-xl text-sm font-semibold gap-1.5 disabled:text-gray-500 dark:disabled:text-gray-500 bg-primary-200 text-primary-700 hover:bg-primary-300 disabled:bg-gray-300 dark:bg-primary-700 dark:text-primary-200 dark:hover:bg-primary-600 dark:disabled:bg-gray-700 py-3 px-5">Photographers</button>
+              <button className="transition-all select-none h-10 flex items-center justify-center rounded-xl text-sm font-semibold gap-1.5 disabled:text-gray-500 dark:disabled:text-gray-500 bg-primary-200 text-primary-700 hover:bg-primary-300 disabled:bg-gray-300 dark:bg-primary-700 dark:text-primary-200 dark:hover:bg-primary-600 dark:disabled:bg-gray-700 py-3 px-5">Creative Agency</button>
+
+              <button className="transition-all select-none h-10 flex items-center justify-center rounded-xl text-sm font-semibold gap-1.5 disabled:text-gray-500 dark:disabled:text-gray-500 bg-primary-200 text-primary-700 hover:bg-primary-300 disabled:bg-gray-300 dark:bg-primary-700 dark:text-primary-200 dark:hover:bg-primary-600 dark:disabled:bg-gray-700 py-3 px-5">Pack Shot</button>
+              <button className="transition-all select-none h-10 flex items-center justify-center rounded-xl text-sm font-semibold gap-1.5 disabled:text-gray-500 dark:disabled:text-gray-500 bg-primary-200 text-primary-700 hover:bg-primary-300 disabled:bg-gray-300 dark:bg-primary-700 dark:text-primary-200 dark:hover:bg-primary-600 dark:disabled:bg-gray-700 py-3 px-5">Selfie</button>
+
+            </div>
+          </div>
+          <div className="flex-1 overflow-hidden flex flex-col flex-wrap">
+            <div className="w-full h-full transition-transform duration-700" translate="X(-0%)">
+              <div className="h-full flex flex-col justify-start">
+                <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center my-8 mx-2" >Teleport your models anywhere, in one click. You don't need Photoshop to make impressive shoots anymore.</p>
+                <div className="self-center h-[250px] md:h-[500px] w-[250px] md:w-[500px]">
+                  <img src="https://static.clipdrop.co/web/replace-background/use-cases/Photo.jpg" className="position: absolute; object-fit: contain; border-radius: 0.75rem; opacity: 1;"/>
+                </div>
+                <p className="text-base font-medium text-gray-600 dark:text-gray-400 my-6 text-center mt-2 mb-6 italic px-6">Originals</p>
+                 <div className="flex flex-wrap gap-6 w-full justify-center item-center px-6">
+                <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150 ">
+                <div className="hero">
+                  <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Photo.jpg"/>
+                </div>
+                </button>
+                <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                <div>
+                  <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Photo_2.jpg"/>
+                </div>
+                </button>
+                <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                <div>
+                  <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Photo_3.jpg"/>
+                </div>
+                </button>
+                <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                <div>
+                  <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Photo_2.jpg"/>
+                </div>
+                </button>
+                
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>   
+  
+   
   )
 }
 
