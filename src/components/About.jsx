@@ -9,7 +9,7 @@ import { SectionWrapper } from '../hoc';
 const ServiceCard = ({ index, title, icon, image }) => {
   return (
     
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[250px] items-center justify-start w-auto">
       
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
@@ -22,8 +22,8 @@ const ServiceCard = ({ index, title, icon, image }) => {
             scale: 1,
             speed: 4450
           }}
-          className='bg-tertiary rounded-[20px]
-          py-1  min-h-[280px] flex
+          className=' rounded-[20px]
+            min-h-[280px] flex
           justify-evenly items-center flex-col'
         >
           <img src={image}
@@ -38,17 +38,27 @@ const ServiceCard = ({ index, title, icon, image }) => {
 const About = () => {
   return (
     <>
-      
+      <div className='flex-1 flex-col mb-3 sm:flex-row    justify-center items-center  mt-12 px-6 mx-2'>
+      <div className=' flex-1 flex-col sm:flex-row justify-center gap-5 px-6 '>    
+       <div className="w-full rounded-3xl overflow-hidden border-dashed border-4 border-black dark:border-white">
+                              <div className="flex flex-col justify-center items-center text-center px-8 py-8 sm:py-16 dark:bg-gray-800 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700">
+                                <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center opacity-100 mx-4 select-none">Click, paste, or drop a file here to start.</p>
+                                <input type="file" className="absolute top-0 bottom-0 left-0 right-0 hidden" accept="image/png,image/jpeg,image/webp"/>
+                                </div>
+                                </div> 
+                                </div>
+                                </div>
       <div className='flex mt-3 mb-3 gap-1 items-center justify-center text-black dark:text-white '>
+        
         <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' stroke='currentColor' width='32' height='32'>
               <path strokeLinecap='round' strokeLinejoin='round' d='M17 13l-5 5m0 0l-5-5m5 5V6'></path>
         </svg>
         <p className='text-[18px] font-bold text-black dark:text-white'>Or try with an example</p>
       </div>
       
-
      
-      <div className='mt-20 flex flex-wrap gap-10'>
+     
+      <div className='mt-3 mb-3 flex flex-wrap gap-10 items-center justify-center '>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service}/>
         ))}
@@ -58,4 +68,4 @@ const About = () => {
   )
 }
 
-export default SectionWrapper( About, "about")
+export default About; 

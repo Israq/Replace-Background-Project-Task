@@ -1,0 +1,6 @@
+<div className="w-full rounded-3xl overflow-hidden border-dashed border-4 border-black dark:border-white">
+                              <div className="flex flex-col justify-center items-center text-center px-8 py-8 sm:py-16 dark:bg-gray-800 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700">
+                                <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center opacity-100 mx-4 select-none">Click, paste, or drop a file here to start.</p>
+                                <input type="file" className="absolute top-0 bottom-0 left-0 right-0 hidden" accept="image/png,image/jpeg,image/webp"/>
+                                </div>
+                                </div> 

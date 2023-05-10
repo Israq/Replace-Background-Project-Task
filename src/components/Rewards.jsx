@@ -6,7 +6,7 @@ import { technologies } from "../constants";
 
 const Rewards = () => {
   return (
-   <section id="rewards" className="max-w-5xl px-2 flex flex-wrap w-full max-widht justify-between gap-10 mt-8">
+   <section id="rewards" className="max-w-8xl px-6 flex flex-wrap w-full max-widht justify-between gap-10 mt-8">
     <div className="flex-1 flex flex-wrap min-w-[250px] flex-col gap-1 items-center justify-start text;black dark:text-white">
       <div className="flex justify-center items-center gap-4">
         <div className="w-auto flex flex-col gap-1 justify-center items-center text-center">
@@ -76,16 +76,16 @@ const Rewards = () => {
             </div>
           </div>
           <div className="flex-1 overflow-hidden flex flex-col flex-wrap">
-            <div className="w-full h-full transition-transform duration-700" translate="X(-0%)">
+            <div className="w-full h-full -translate-x-0 duration-700" translate="X(-0%)">
               <div className="h-full flex flex-col justify-start">
                 <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center my-8 mx-2" >Teleport your models anywhere, in one click. You don't need Photoshop to make impressive shoots anymore.</p>
                 <div className="self-center h-[250px] md:h-[500px] w-[250px] md:w-[500px]">
                   <img src="https://static.clipdrop.co/web/replace-background/use-cases/Photo.jpg" className="position: absolute; object-fit: contain; border-radius: 0.75rem; opacity: 1;"/>
                 </div>
-                <p className="text-base font-medium text-gray-600 dark:text-gray-400 my-6 text-center mt-2 mb-6 italic px-6">Originals</p>
+                <p className="text-base font-medium text-gray-600 dark:text-gray-400 my-6 text-center mt-2 mb-6 italic px-6">A blurry desert background</p>
                  <div className="flex flex-wrap gap-6 w-full justify-center item-center px-6">
                 <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150 ">
-                <div className="hero">
+                <div>
                   <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Photo.jpg"/>
                 </div>
                 </button>
@@ -108,9 +108,63 @@ const Rewards = () => {
                  </div>
               </div>
             </div>
+            <div className="w-full h-full transition-transform duration-700 -translate-x-0">
+              <div className="h-full flex flex-col justify-start">
+                <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center my-8 mx-2">
+                Create as many concepts as you want for your products or your clients.  Your only limit is your imagination. 
+                </p>
+                <div className="self-center h-[250px] md:h-[500px] w-[250px] md:w-[500px]">
+                    <img className="position: absolute; object-fit: contain; border-radius: 0.75rem; opacity: 1" src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"
+                    />
+                </div>
+                 <p className="text-base font-medium text-gray-600 dark:text-gray-400 my-6 text-center mt-2 mb-6 italic px-6">Original</p>
+                    <div className="flex flex-wrap gap-6 w-full justify-center item-center px-6">
+                      <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                        <div>
+                        <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"/>
+                        </div>
+                      </button>
+                      <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                        <div>
+                        <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"/>
+                        </div>
+                      </button>
+                      <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                        <div>
+                        <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"/>
+                        </div>
+                      </button>
+                      <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                        <div>
+                        <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"/>
+                        </div>
+                      </button>
+                    </div>
+                 
+              </div>
+            </div>
+            <div className="w-full h-full transition-transform duration-700 -translate-x-0">
+              <div className="h-full flex flex-col justify-start">
+                <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center my-8 mx-2">
+                Create as many concepts as you want for your products or your clients.  Your only limit is your imagination. 
+                </p>
+                <div className="self-center h-[250px] md:h-[500px] w-[250px] md:w-[500px]">
+                    <img className="position: absolute; object-fit: contain; border-radius: 0.75rem; opacity: 1" src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"
+                    />
+                </div>
+                 <p className="text-base font-medium text-gray-600 dark:text-gray-400 my-6 text-center mt-2 mb-6 italic px-6">Original</p>
+                    <div className="flex flex-wrap gap-6 w-full justify-center item-center px-6">
+                      <button className="h-14 w-14 md:h-24 md:w-24 overflow-hidden rounded-lg transition-all duration-100 border-solid border-primary-500 hover:border-2 hover:saturate-150 border-4 saturate-150">
+                        <div>
+                        <img loading:lazy   className="color:transparent; width:100%; height:auto; width:64; decoding:async; data-nimg:1; " src="https://static.clipdrop.co/web/replace-background/use-cases/Concept.jpg"/>
+                        </div>
+                      </button>
           </div>
         </div>
       </div>
+    </div>
+    </div>
+    </div>
     </div>
 </section>   
   
@@ -118,4 +172,4 @@ const Rewards = () => {
   )
 }
 
-export default Rewards
+export default  Rewards;
