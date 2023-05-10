@@ -284,20 +284,7 @@ const cards = [
     name: "Replace Background",
     description:
       "Teleport anything, anywhere with AI",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restful_api",
-        color: "green-text-gradient",
-      },
-      {
-        name: "node.js",
-        color: "pink-text-gradient",
-      },
-    ],
+    
     video: "https://static.clipdrop.co/web/homepage/tools/ReplaceBackground.webm#t=0.1",
     source_code_link: "https://github.com/",
     live_project_link: "https://face-recognition-frontend-cio2.onrender.com/",
