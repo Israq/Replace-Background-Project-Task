@@ -67,7 +67,7 @@ const Cards = () => {
   return (
     <>
     
-      <div className='mt-20 flex flex-wrap gap-7'>
+      <div className='mt-20 flex flex-wrap gap-10'>
         {cards.map((cards, index) => (
           <ReplaceBackground key={`cards-${index}`} index={index} {...cards} />
         ))}

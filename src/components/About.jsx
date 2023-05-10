@@ -38,16 +38,23 @@ const ServiceCard = ({ index, title, icon, image }) => {
 const About = () => {
   return (
     <>
-      <div className='flex-1 flex-col mb-3 sm:flex-row    justify-center items-center  mt-12 px-6 mx-2'>
-      <div className=' flex-1 flex-col sm:flex-row justify-center gap-5 px-6 '>    
-       <div className="w-full rounded-3xl overflow-hidden border-dashed border-4 border-black dark:border-white">
+       <div className="w-full flex flex-1 flex-col sm:flex-row justify-center items-center sm:items-start px-12 mt-12">
+        <div className="w-full max-w-[850px]  rounded-3xl flex flex-col-reverse md:flex-row justify-end relative md:h-40 lg:h-48">
+          <div className="sm:flex-1  sm:inline-block">
+          <div className="w-full rounded-3xl overflow-hidden border-dashed border-4 border-black dark:border-white">
                               <div className="flex flex-col justify-center items-center text-center px-8 py-8 sm:py-16 dark:bg-gray-800 cursor-pointer hover:bg-gray-200 dark:hover:bg-gray-700">
                                 <p className="text-base font-medium text-gray-600 dark:text-gray-400 text-center opacity-100 mx-4 select-none">Click, paste, or drop a file here to start.</p>
                                 <input type="file" className="absolute top-0 bottom-0 left-0 right-0 hidden" accept="image/png,image/jpeg,image/webp"/>
                                 </div>
                                 </div> 
-                                </div>
-                                </div>
+                            </div>
+                            
+                            </div>
+                            
+                            </div>
+                            
+        
+                            
       <div className='flex mt-3 mb-3 gap-1 items-center justify-center text-black dark:text-white '>
         
         <svg xmlns='http://www.w3.org/2000/svg'  viewBox='0 0 24 24' stroke='currentColor' width='32' height='32'>
