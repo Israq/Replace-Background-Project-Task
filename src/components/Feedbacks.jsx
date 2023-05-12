@@ -10,7 +10,7 @@ import { testimonials } from '../constants';
 const Feedbacks = () => {
   return (
    
-    <div className="bg-black-200  rounded-3xl   h-screen">
+    <div className="bg-black-200  rounded-3xl   h-auto ">
     <div className="bg-tranparent">
         <div className="container flex flex-col justify-center  mx-auto ">
             <h2 className="text-5xl justify-center text-center mt-14 mb-10 sm:mb-20 font-bold">
